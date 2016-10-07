@@ -1,0 +1,75 @@
+<android.support.v7.widget.CardView
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:gravity="top"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="italic"
+            android:textSize="20dp"
+
+            android:text="we"
+            android:id="@+id/daynum"
+            android:layout_alignParentBottom="true"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/hightemp"
+                android:layout_marginLeft="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="highTemp"
+                android:textSize="16sp"
+                android:textColor="#ff5d22"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/message"
+                android:layout_toStartOf="@+id/message" />
+            <TextView
+                android:id="@+id/lowtemp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="lowTemp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/hightemp"
+                android:textSize="15sp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="5dp"
+                android:layout_above="@+id/message"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/description"
+                android:textSize="20sp"
+                android:textColor="#3487ae"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:layout_below="@+id/date"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

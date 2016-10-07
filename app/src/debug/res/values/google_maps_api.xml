@@ -1,0 +1,19 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=8D:BD:C2:5F:60:12:5B:3F:8E:E7:FD:2D:79:CB:0A:46:55:30:A1:17%3Bslidenerd.vivz.navigationviewdemo
+
+    You can also add your credentials to an existing key, using this line:
+    8D:BD:C2:5F:60:12:5B:3F:8E:E7:FD:2D:79:CB:0A:46:55:30:A1:17;com.android.gis.huappapp
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyClFf0_pRhcVujp3hP352yfBSQzhdrCn7U</string>
+</resources>

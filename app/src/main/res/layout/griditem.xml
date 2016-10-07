@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:layout_gravity="left"
+    android:background="@drawable/touch_selector"
+    android:padding="5dp">
+
+    <ImageView
+        android:padding="10dp"
+        android:id="@+id/offer_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        />
+
+</RelativeLayout>

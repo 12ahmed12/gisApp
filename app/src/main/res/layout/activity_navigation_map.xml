@@ -1,0 +1,120 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="slidenerd.vivz.navigationviewdemo.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background="@drawable/header_grad">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="From"
+                android:id="@+id/textView"
+                android:textStyle="bold|italic"
+                android:textColorHighlight="#e72626" />
+
+            <Spinner
+
+                android:layout_width="wrap_content"
+                android:minWidth="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner"
+                android:dropDownVerticalOffset="-53dp"
+                android:spinnerMode="dropdown"
+                android:drawSelectorOnTop="true"
+
+                android:background="@drawable/gradient3"
+                android:popupBackground="@drawable/gradient3"
+                android:touchscreenBlocksFocus="false"
+                android:nestedScrollingEnabled="true"
+                android:layout_marginTop="5dp"
+                android:gravity="top" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="To"
+                android:id="@+id/to"
+                android:textColorHighlight="@color/accent"
+                android:textStyle="bold|italic"
+                android:layout_weight="0.27" />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="200dp"
+                android:id="@+id/spinner2"
+                android:dropDownVerticalOffset="-53dp"
+                android:spinnerMode="dropdown"
+                android:drawSelectorOnTop="true"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/gradient3"
+                android:popupBackground="@drawable/gradient3"
+                android:touchscreenBlocksFocus="false"
+                android:nestedScrollingEnabled="true"
+                android:layout_marginTop="5dp"
+                android:gravity="top" />
+
+
+
+
+            />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton"
+                android:layout_weight="0.48"
+                android:background="@drawable/h" />
+
+
+        </LinearLayout>
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="slidenerd.vivz.navigationviewdemo.NavigationMap"
+            tools:layout="@layout/abc_dialog_title_material" />
+    </LinearLayout>
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/map_navigate"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/drawer_header"
+        android:layout_gravity="start"
+        app:itemIconTint="#9c0514"
+        app:itemTextColor="@color/abc_input_method_navigation_guard"
+        app:menu="@menu/map_menu" />
+
+
+</android.support.v4.widget.DrawerLayout>

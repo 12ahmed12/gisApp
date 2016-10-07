@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:id="@+id/popup"
+        android:layout_height="match_parent"
+        android:background="@drawable/newgrediant1"
+        android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/poptitle"
+                android:padding="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Title"
+                android:textColor="#b11706"
+                android:textSize="30dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                />
+
+            <TextView
+                android:id="@+id/popdate"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff470a"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="news Date"
+                android:textSize="15sp"
+
+                />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxHeight="300dp"
+            android:padding="10dp"
+            android:id="@+id/popimg"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/popmessage"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:textColor="#131312"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:text="message discription" />
+
+    </LinearLayout>

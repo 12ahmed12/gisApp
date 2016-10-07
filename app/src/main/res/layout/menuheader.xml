@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/container"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Shop Menu"
+    android:textStyle="bold"
+    android:textColor="@color/common_google_signin_btn_text_light"
+    android:textSize="25dp"
+    android:id="@+id/menutext"
+     />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:padding="5dp"
+        android:layout_below="@+id/menutext"
+        android:id="@+id/menuhr"
+        android:background="#5b4f4f"/>
+
+    <ImageButton
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/menuhr"
+        android:layout_width="match_parent"
+        android:id="@+id/menu"
+        android:layout_gravity="center"
+        android:layout_height="250dp" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shop Offers"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/common_google_signin_btn_text_light"
+        android:layout_below="@+id/menu"
+        android:id="@+id/textoffer"
+        />
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:id="@+id/offerhr"
+        android:layout_below="@+id/textoffer"
+        android:background="#262222"/>
+
+
+    <!--<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/expandedimg"
+     />-->
+
+
+</RelativeLayout>

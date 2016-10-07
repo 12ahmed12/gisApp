@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/newlogo"
+    android:layout_height="wrap_content"
+     >
+
+    <ProgressBar
+        android:layout_width="270dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/pbar"
+        android:layout_height="50dp"
+        android:progress="100"
+        android:progressDrawable="@drawable/customprogress"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fac40e1a"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:text="Helwan University Application "
+        android:id="@+id/textView4" />
+
+</RelativeLayout>

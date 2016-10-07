@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/popup"
+    android:layout_height="match_parent"
+    android:background="@drawable/newgrediant1"
+    android:orientation="vertical" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shop Name :"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/notshopname"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="shop name"
+        android:textColor="#b11706"
+        android:textSize="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start :"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            />
+    <TextView
+        android:id="@+id/notstart"
+        android:layout_marginTop="10dp"
+        android:textColor="#ff470a"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="news Date"
+        android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End   :"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/notend"
+            android:layout_marginTop="10dp"
+            android:textColor="#ff470a"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="news Date"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/notmessage"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:textColor="#131312"
+        android:gravity="left"
+        android:layout_height="wrap_content"
+        android:text="message discription" />
+
+</LinearLayout>

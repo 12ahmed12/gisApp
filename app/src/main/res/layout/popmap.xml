@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:id="@+id/popupmap"
+    android:background="@drawable/gradient5"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp"
+        android:id="@+id/name"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignBottom="@+id/poptitle"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_weight="0.19"
+        android:textColor="#090909"
+        android:textSize="@dimen/abc_floating_window_z"
+        android:textStyle="bold|italic" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Comment"
+        android:textStyle="bold|italic"
+        android:textSize="@dimen/abc_dialog_padding_top_material"
+        android:gravity="left"
+        android:hint="Write Comment"
+        android:layout_below="@+id/name"
+        android:maxLength="25" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/ttt"
+        android:layout_below="@+id/Comment"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textColor="#872222" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Comment"
+        android:textSize="20dp"
+        android:id="@+id/submit"
+        android:textStyle="italic"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_alignTop="@+id/Flow"
+        android:layout_alignRight="@+id/ttt"
+        android:layout_alignEnd="@+id/ttt"
+        android:layout_marginRight="46dp"
+        android:layout_marginEnd="46dp" />
+
+    <Button
+        android:id="@+id/Flow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Flow"
+        android:textSize="20dp"
+       android:padding="10dp"
+        android:textStyle="italic"
+        android:gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ttt"
+        />
+
+
+
+
+</RelativeLayout>

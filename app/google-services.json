@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "819651301549",
+    "firebase_url": "https://gpapp-a2032.firebaseio.com",
+    "project_id": "gpapp-a2032",
+    "storage_bucket": "gpapp-a2032.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819651301549:android:1a7082ff6bd322c7",
+        "android_client_info": {
+          "package_name": "com.android.gis.huapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819651301549-l014u1gs4jpkrjdlmrucs16md9jm7s58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaTVgg-kQAs5qdMhcIjrLeq2pXXdcZct8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819651301549:android:6fc095f24d2bb1cc",
+        "android_client_info": {
+          "package_name": "slidenerd.vivz.com.android.gis.com.android.gis.huapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819651301549-l014u1gs4jpkrjdlmrucs16md9jm7s58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaTVgg-kQAs5qdMhcIjrLeq2pXXdcZct8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

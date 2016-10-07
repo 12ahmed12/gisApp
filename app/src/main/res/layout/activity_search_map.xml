@@ -1,0 +1,70 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.gis.huapp.MainActivity">
+
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/gradient5">
+
+    <LinearLayout
+        android:padding="2dp"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:background="@drawable/gradient5">
+        <AutoCompleteTextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/autocomplute"
+
+            android:hint="ادخل اسم المكان "/>
+        <Button
+            android:layout_width="80dp"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchB"
+            android:background="@drawable/header_grad"
+            android:text="Search"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="slidenerd.vivz.navigationviewdemo.SearchMap"
+        tools:layout="@layout/abc_action_bar_title_item" />
+</LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/map_navigate"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/drawer_header"
+        android:layout_gravity="start"
+        app:itemIconTint="#9c0514"
+        app:itemTextColor="@color/abc_input_method_navigation_guard"
+        app:menu="@menu/map_menu" />
+
+
+</android.support.v4.widget.DrawerLayout>

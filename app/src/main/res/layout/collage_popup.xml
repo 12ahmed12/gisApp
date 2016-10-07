@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="400dp"
+
+    android:layout_width="350dp"
+    android:id="@+id/popupcolage"
+    android:background="@drawable/gradiant7"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_gravity="right"
+        android:layout_alignBottom="@+id/poptitle"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_weight="0.19"
+        android:backgroundTintMode="multiply"
+        android:textColor="#090909"
+        android:textSize="@dimen/abc_floating_window_z"
+        android:textStyle="bold|italic"
+        android:theme="@style/Base.CardView"
+        android:transitionName="@string/abc_searchview_description_submit" />
+
+
+
+    <Button
+        android:id="@+id/close"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Close"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</LinearLayout>
